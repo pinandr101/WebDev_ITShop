@@ -79,31 +79,6 @@ nav ul li a:hover {
     display: block;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 10px 15px;
-        flex-wrap: wrap;
-    }
-    
-    nav ul {
-        gap: 0.5rem;
-    }
-    
-    nav ul li a {
-        font-size: 1rem;
-        padding: 0.4rem 0.6rem;
-        font-size: 0.9rem;
-    }
-    
-    .header-brand h1 {
-        font-size: 1.2rem;
-    }
-    
-    .dropdown-menu {
-        min-width: 160px;
-    }
-}
-
 .buy-button {
     background-color: orange;
     border-radius: 20rem;
@@ -238,6 +213,29 @@ footer {
 }
 
 @media (max-width: 720px) {
+    header {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+    }
+    
+    nav ul {
+        gap: 0.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 1rem;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+    
+    .header-brand h1 {
+        font-size: 1.2rem;
+    }
+    
+    .dropdown-menu {
+        min-width: 160px;
+    }
+    
     footer {
         padding: 1.5rem;
     }
@@ -294,18 +292,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
         padding: 40px 1.5rem 1.5rem;
-    }
-    
-    nav ul {
-        gap: 2rem;
-    }
-    
-    nav ul li a {
-        font-size: 1.3rem;
-    }
-    
-    header div h1 {
-        font-size: 1.4rem;
     }
 }
 
